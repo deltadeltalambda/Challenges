@@ -61,7 +61,7 @@ I designed this to have mostly 'accurate' data. The month (August 2021) used in 
 #### Alternative Solution
 As before, conclude this is Russia's YAKT timezone from the bollards and EXIF data. Across all federal subjects of Russia that are in YAKT timezone (Zabaykalsky Krai, Amur Oblast and the western half of Sakha Republic), August 2021 coverage exists ONLY in Sakha Republic (you may check using https://map-degen.vercel.app/). This leaves you with just the western half of Sakha Republic ([the eastern side is UTC+10:00 or UTC+11:00](https://en.wikipedia.org/wiki/Sakha_Republic#/media/File:UTC_hue4map_RUS-SA_2011-09-01.svg)).
 
-Next, we observe the street view coverage in that region. The road south of Yakutsk was photographed during/after a rain. The road east of Yakutsk mostly has an orange hazy coverage. The road north of Yakutsk is overcast and hazy. It is unlikely any of these roads, which essentially leaves us with the P-504 between Yakutsk and the mountains in the east. 
+Next, we observe the street view coverage in that region. The road south of Yakutsk was photographed during/after a rain. The road west of Yakutsk mostly has an orange hazy coverage. The road north of Yakutsk is overcast and hazy. It is unlikely any of these roads, which essentially leaves us with the P-504 between Yakutsk and the mountains in the east. 
 
 Our image depicts one of the few paved stretches of road in that area. The vast majority of the P-504 is unpaved, with the paved sections occuring near towns/villages marked on the map. Check those first.
 
