@@ -1,6 +1,6 @@
 # Solution
 
-The aim of this challenge is to find a precise location (latitude and longitude) on a map. The general approach for problems like this is to narrow in on our solution step-by-step. Think of it like a shrinking radius of possible locations - how can you find what country this is in, then what region in that country, etc.? Your goal should always be to eventually narrow in on a region small or sparse enough, before going through it with a fine-tooth comb.
+The aim of this challenge is to find a precise location (latitude and longitude) on a map. The general approach for problems like this is to narrow in on our solution step-by-step. Think of it like a shrinking radius of possible locations - how can you find what country this is in, then what region in that country, etc.? Your goal should be to eventually narrow in on a region small or sparse enough, before going through it with a fine-tooth comb.
 
 
 ### Step 1: Analyse Image
@@ -38,18 +38,18 @@ If you assemble all the capitalised words together, they form the phrase "Bell I
 
 1. Measure the object-to-shadow ratio of the bollard using any image tool of your choice. I measured the bollard to be about **74-76 pixels** tall and its shadow to be **228-233 pixels** long. That is a ratio of about **1:3**.
 
-*NOTE: the Bellingcat tool requires the shadow to be 90 degrees to the object to be fully accurate. The bollard in our image isn't exactly perpendicular to its shadow but it's close. Since the tool does have some in-built tolerance, for our purposes, the image doesn't need to be adjusted.*
+*NOTE: the Bellingcat tool requires the shadow to be 90 degrees to the object to be fully accurate. The bollard in our image isn't exactly perpendicular to its shadow but it's close. We'll only be using the tool for a very rough region estimate, so for our purposes, the image doesn't need to be adjusted.*
 
 2. Convert the EXIF date/time into UTC: August 29 2021, 07:18AM, UTC+09:00 converts into **August 28 2021, 10:18PM, UTC**.
 
 3. Run the tool and we get the following result:
 ![img1](img1.png) We observe a band that passes through Canada, USA, Panama, Costa Rica, Cuba, Australia, Indonesia, Japan and Russia. But as we concluded earlier in step 2, we know the image is in Russia. The band just helps us to narrow down where in the YAKT timezone the image was taken. 
 
-4. Overlay our results with the boundaries of the YAKT timezone. I've roughly done so in the following diagram, with the thick red lines:
+4. Overlay our results with the boundaries of the YAKT timezone (Zabaykalsky Krai, Amur Oblast and the western half of Sakha Republic). I've roughly done so in the following diagram, with the thick red lines:
 ![img2](img2.png)
-The band crosses the eastern-most nub of Zabaykalsky Krai and an area in Sakha Republic east of Yakutsk. However, looking at these on Google Maps we can see that street view exists only in the latter region. We can conclude that the location is along the road (**P-504 highway**) east of Yakutsk, near the mountain range.
+The band crosses the eastern-most nub of Zabaykalsky Krai and an area in Sakha Republic east of Yakutsk. However, street view is available only in the latter area, along a single road. We can conclude that the location is along the road east of Yakutsk (**P-504 highway**), before the mountain range.
 
-4. Observing the image again, we can see that the road bends up ahead. Search along the aformentioned section of the P-504, focusing on areas before a bend in the road.
+4. Observing the image again, we can see that the road bends up ahead. Search along the P-504, focusing on areas before a bend in the road.
 
 
 **Location: [62.7854231,136.8499532](https://maps.app.goo.gl/ZDgg4Db8q8FDykYu9)**
@@ -59,9 +59,9 @@ The band crosses the eastern-most nub of Zabaykalsky Krai and an area in Sakha R
 I designed this to have mostly 'accurate' data. The month (August 2021) used in the EXIF data is the same month Google Maps Street View claims to have captured this image. I then picked a random date in August and reverse engineered a time of day that made sense with the shadows present, using https://www.suncalc.org/. By making things more 'authentic', I hoped I created opportunities for several alternative solution pathways. Here's one that doesn't require Shadow Finder.
 
 #### Alternative Solution
-As before, conclude this is Russia's YAKT timezone from the bollards and EXIF data. Across all federal subjects of Russia that are in YAKT timezone (Zabaykalsky Krai, Amur Oblast and the western half of Sakha Republic), August 2021 coverage exists ONLY in Sakha Republic (you may check using https://map-degen.vercel.app/). This leaves you with just the western half of Sakha Republic ([the eastern side is UTC+10:00 or UTC+11:00](https://en.wikipedia.org/wiki/Sakha_Republic#/media/File:UTC_hue4map_RUS-SA_2011-09-01.svg)).
+As before, conclude this is Russia's YAKT timezone (UTC +09:00) from the bollards and EXIF data. Across all federal subjects of Russia that are in YAKT timezone (Zabaykalsky Krai, Amur Oblast and the western half of Sakha Republic), August 2021 street view coverage exists ONLY in Sakha Republic (you may check using https://map-degen.vercel.app/). This leaves us with just the western half of Sakha Republic ([the eastern side is UTC+10:00 or UTC+11:00](https://en.wikipedia.org/wiki/Sakha_Republic#/media/File:UTC_hue4map_RUS-SA_2011-09-01.svg)).
 
-Next, we observe the street view coverage in that region. The road south of Yakutsk was photographed during/after a rain. The road west of Yakutsk mostly has an orange hazy coverage. The road north of Yakutsk is overcast and hazy. It is unlikely any of these roads, which essentially leaves us with the P-504 between Yakutsk and the mountains in the east. 
+Next, we observe the street view coverage in that region. The road south of Yakutsk was photographed during/after a rain. The road west of Yakutsk mostly has an orange hazy coverage. The road north of Yakutsk is overcast and hazy. Our image (taken from street view) depicts clear skies and a bright sunny day, so it is unlikely any of these roads, which essentially leaves us with the P-504 between Yakutsk and the mountains in the east. 
 
 Our image depicts one of the few paved stretches of road in that area. The vast majority of the P-504 is unpaved, with the paved sections occuring near towns/villages marked on the map. Check those first.
 
