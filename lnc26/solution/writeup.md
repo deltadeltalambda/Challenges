@@ -9,21 +9,21 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 
 ### 1. bicycle
 
->**Endemism**
+>**Endemism**  
 >Through isolation or specialized adaptation, some plants evolve to be endemic. They are a fantastic clue as to *where* an image is taken.
 
 <img src="image0.png" width="600">
 
 
 1. Reverse image search the unique plant. It is **Opuntia Galapageia** (Galápagos prickly pear cactus), **endemic** to Galápagos islands
-2. Through reverse image search or trial-and-error on Street View, recognise that this is somewhere along the stretch of road in Isla Isabela towards the Wall of Tears.
+2. Through reverse image search or searching for common cycling routes in the Galápagos, find that this is somewhere along the stretch of road in Isla Isabela towards the Wall of Tears.
 
 **Answer: Puerto Villamil, Galápagos, Ecuador** [-0.963,-91.006](https://maps.app.goo.gl/mfEgQgLLKG9HFogG9)
 
 
 ### 2. violet
 
->**Phenology**
+>**Phenology**  
 >For plants that exhibit seasonal blooming, observing their state in an image provides a good benchmark of *when* that image was taken
 
 <img src="image1.png" width="800">
@@ -49,7 +49,7 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 
 ### 3. tears
 
->**Geocultural Cultivars**
+>**Geocultural Cultivars**  
 >Due to culture or geographical conditions, communities can develop hyper-localised agricultural practices that create visually unique agricultural landscapes.
 
 <img src="image2.png" width="800">
@@ -64,7 +64,7 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 
 ### 4. california
 
->**Tree Maps**
+>**Tree Maps**  
 >Many countries/cities maintain maps or lists that catalogue plants. This can include trees, unique plants or even plants with protected statuses.
 
 <img src="image3.png" width="1000">
@@ -88,7 +88,7 @@ G is approximately around the **Greenford** area. The '####' number on the lamp 
 
 
 ### 5. root
->**Geospatial data (GIS)**
+>**Geospatial data (GIS)**  
 Open-source vegetation/environmental data is a great tool for geolocating images
 
 <img src="image5.png" width="1000">
@@ -98,10 +98,10 @@ Open-source vegetation/environmental data is a great tool for geolocating images
 3. Reverse image search the crops. They are **carrots**. 
 4. The Google copyright on the panorama is 2023. The copyright year is always equal to or more recent than the year the image was actually captured. -> this image is from **2023 or earlier**.
 5. With that in mind, we can use [USDA GIS crop data](https://croplandcros.scinet.usda.gov/), filter for **carrots** in **Wisconsin/upper Michigan peninsula** starting in **2023**
-6. Check the roads around the marked out carrot fields. (Lucky for you, the copyright date is in fact accurate.)
+6. Check the roads around the marked out carrot fields. (Lucky for you, the copyright date is in fact accurate - this is 2023 coverage.)
 
 #### Alternative Solution
-Considering the commercial irrigation system, this is quite a sizeable commercial/industrial carrot farm, not a personal plot. Most of the carrot farms in Wisconsin are in the central and south-eastern regions. Top results for Wisconsin carrot farms are all located in Almond and Wautoma. If you just searched all the roads in the area in between them, you'd eventually look through Plainfield and you'd find it in the end.
+Considering the commercial irrigation system, this is quite a sizeable commercial/industrial carrot farm, not a personal plot. Most of the carrot farms in Wisconsin are in the central and south-eastern regions (and there are no carrot farms in the upper Michigan peninsula). Top results for Wisconsin carrot farms are all located in Almond and Wautoma. If you just searched all the roads in the area in between them, you'd eventually look through Plainfield and you'd find it in the end.
 
 **Answer: 5572 County Rd B, Wisconsin, United States** [44.180,-89.446](https://maps.app.goo.gl/HYGHwCEcr2ZiZHM4A)  
 
@@ -115,4 +115,4 @@ Considering the commercial irrigation system, this is quite a sizeable commercia
 ### Resources
 1. London Tree Map: [https://apps.london.gov.uk/public-realm-trees/explore](https://apps.london.gov.uk/public-realm-trees/explore)
 2. USDA GIS Cropland Data: [https://croplandcros.scinet.usda.gov/](https://croplandcros.scinet.usda.gov/)
-3. Plonkit Guide - country specific infrastructure[https://www.plonkit.net](www.plonkit.net)
+3. Plonkit Guide - country specific infrastructure: [https://www.plonkit.net](www.plonkit.net)
