@@ -1,0 +1,55 @@
+Name          Coords (3dp)       Coords (full)
+
+bicycle      -0.963,-91.006    -0.9633796,-91.0064789
+violet       -25.780,28.240    -25.7797893,28.239633 
+tears        38.308,26.036     38.3077829,26.0363904
+california   51.515,-0.341     51.5151261,-0.3414552
+root         44.180,-89.446    44.1798212,-89.4460242
+
+
+Flag:LNC26{Y_70ucH_9r45$_w3n_u_c4N_57uDy_gR4S5_206d97289a686b14aa91189ede9e4df8}
+
+-------------------------------------
+
+Brief Explanation (for reviewer's reference)
+
+All images feature at least 1 plant that provides participants with some information, which combined with other clues, will lead to a narrow enough search area to begin manual searching.
+
+
+1. BICYCLE
+- reverse image search the plant. it is Opuntia galapageia (Galapagos prickly pear cactus), endemic to Galapagos islands
+- there is limited street view coverage, simple reverse image search of the scene or just testing out the available roads on street view will narrow things down to 1 stretch of road in Isla Isabela, towards the wall of tears.
+
+2. VIOLET
+- reverse image search the trees. they are Jacarandas.
+- reverse image search the scene. Google lens will suggest Pretoria/Johannesburg. The 'CTMM' on the back of the sign refers to 'City of Tshwane Metropolitan Municipality' - ergo, this is Pretoria.
+- Jacarandas at full bloom in Pretoria occurs in October. We are looking for October coverage, with generation 3 camera quality, in Pretoria
+- Search best places to see Pretoria jacaranda (https://www.inyourpocket.com/johannesburg/where-to-see-pretorias-jacaranda-spring_78537f). 
+- First, eliminate by coverage. Arcadia, Sunnyside and Eastwood have no October coverage. MUCKLENEUK only has oct 2009 coverage where the gen2 camera quality is much worse than our image (https://geohints.com/meta/cameraGens). Groenkloof has oct coverage but it was taken either too late or too early, so there are no flowers. 
+- Second, eliminate by nature of land use. Riviera and Hatfield have October coverage only on the main road - this is a residential side street. This is also obviously not Pretoria city center. 
+- We're left with Brooklyn and Waterkloof. Check all intersections
+
+3. TEARS
+- the most interesting thing in the scene is the row of trees with strange white powder underneath. Reverse image search these - they are Mastic trees. Though mastic shrubs are found all throughout the Mediterranean, they are only cultivated into trees (using a special technique that involves scattering white calcium carbonate at the base) in South Chios, Greece. They produce mastic resin aka tears of Chios.
+- double white center road lines also point to Greece
+- the only places in Greece allowed to grow mastic trees are the 24 mastic villages in Chios (https://www.gummastic.gr/en/mastihavillages/villages)
+- using this list, search roads in and around each village. Mastic tree groves are often located along the highways connecting neighboring mastic villages.
+
+
+4. CALIFORNIA
+- obviously this is not California. But we do have a huge Sequoia sempervirens (Coastal Redwood), which is native to California
+- on the back windscreen of the white car there is 'Cargiant.co.uk' > a company that operates exclusively in London
+- the lamp post next to it has a white sign with the text 'GC42' and a little green logo. Though it is too small to see, you can compare it with a list of London borough logos and it's very obviously the borough of Ealing.
+- using the London Tree Map https://apps.london.gov.uk/public-realm-trees/explore search for redwood trees in the borough of Ealing. There are only 10.
+
+Alternative solution: Ealing lamp posts are labelled with this format 'xC####', that is a letter from A-Q preceding 'C' and then a number. The first letter represents an area in Ealing (though this isn't officially stated anywhere that i could find, the pattern can easily be observed on Google Maps street view), and G is approximately around the Greenford area. The '####' number on the lamp posts are consecutive for neighboring lamp posts on the same street but not consecutive across streets. It's thus possible to just check every street around Greenford until you find a lamp post with a similar number, and you'd likely be somewhere on the right street.
+
+
+5. ROOT
+- reverse image search the crops. They are carrots.
+- utility poles by the roadside feature white and orange warning stickers - this is unique to Wisconsin (and technically also the upper Michigan peninsula, but as far as I can tell they don't seem to grow carrots there so we can discount that) 
+- the google copyright on the panorama is for 2023. In general the copyright year is equal to or more recent than the year the image was actually captured.
+- With that in mind, we can start by using USDA GIS crop data https://croplandcros.scinet.usda.gov/, filter for carrots in Wisconsin in 2023 
+- check the roads around all the marked out carrot fields
+
+Alternative solution: most of the carrot fields in Wisconsin are in the central and southeastern regions. Top results for Wisconsin carrot farms are in Almond and Wautoma, which are right there next to Plainfield. If you just searched all the roads in the area you'd get it in the end.
