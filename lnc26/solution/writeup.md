@@ -57,10 +57,11 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 1. The most interesting thing in the scene is the row of shrubs with white powder underneath
 2. Reverse image search the plants - they are **Mastic trees**. Though mastic shrubs are found all throughout the Mediterranean, they are only cultivated into trees (using a special technique that involves scattering white calcium carbonate at the base) in **South Chios, Greece**. This specific variety produces mastic resin aka tears of Chios. 
 3. Specific microclimatic conditions mean the mastic trees are only grown in **24 mastic villages** aka **[Mastichochoria](https://www.gummastic.gr/en/mastihavillages/villages)**
-4. Search roads in and around each village. Mastic tree groves are often located along the highways connecting neighboring mastic villages. Because I like rewarding systematic thinking and the usage of official sources, if you used the link above (official Mastichochoria site), this location is close to the very first village listed.
+4. Search roads in and around each village. Mastic tree groves are often located along the highways connecting neighboring mastic villages. To narrow things down, you can eliminate any village near or with a view of the sea (E.g. Kataraktis). Next, notice our road is in a high plateau - there aren't visible mountains that are much higher than us - so we can use Google Maps Terrain view to eliminate any locations in valleys (where you would see visible mountains), which is most of them (e.g. Vessa-Armolia road, Mesta, Pyrgi-Elata road, Olympi-Pyrgi road...).
+5. One of your options left should be Ag. Georgios Sikousis.
 
-**Answer: Επαρ.Οδ. Χίου-Ελάτας, Chios, Greece** [38.308,26.036](https://maps.app.goo.gl/MbLWvyf2jCJkEL6s6)
-
+**Answer: Επαρ.Οδ. Χίου-Ελάτας, Chios, Greece** [38.308,26.036](https://maps.app.goo.gl/MbLWvyf2jCJkEL6s6)  
+*Bonus: Because I like to reward systematic thinking and use of official sources, if you found the [official mastichochoria website](https://www.gummastic.gr/en/mastihavillages/villages), the villages are listed in alphabetical order and you would have checked Ag. Georgios Sikousis first*
 
 ### 4. california
 
@@ -75,13 +76,15 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 4. The lamp post features a white sign with the text 'GC42' and a little green logo. Though it is too small to see, you can compare it with the [London borough logos](https://dnco.com/thinking/londons-logos-decoded) and it's very obviously the borough of **Ealing**.
 5. Using the [London Tree Map](https://apps.london.gov.uk/public-realm-trees/explore) search through redwood trees in the borough of Ealing. There are only 10.
 
-#### BONUS: Alternative Solution
+#### Alternative Solution
 Ealing lamp posts are labelled with this format '**xC####**', that is a letter from A-Q preceding 'C' and then a number. The first letter corresponds to an area in Ealing (though I couldn't find this officially stated anywhere, the pattern can easily be observed on Google Maps street view). I have very kindlly created a rough map to demonstrate this:
 
 <img src="image4.png" width="500">
 
 G is approximately around the **Greenford** area. The '####' number on the lamp posts are consecutive for neighboring lamp posts on the same street but not consecutive across streets. It's thus possible to just check every street around Greenford until you find a lamp post with a similar number, and you'd likely be somewhere on the right street.
 
+#### BONUS Solution
+Sometimes you miss things right under your nose. Thank you to the 2 participants for this unintended solve: The sign "H2 Permit Holders Only" on the pole demarcates a parking spot for H2 permit holders. Although this kind of parking is all over London, one of the top results references Ealing's HAnwell Zoo, which this location is right next to.
 
 **Answer: 101 Church Road, London, United Kingdom** [51.515,-0.341](https://maps.app.goo.gl/bLxnLZw3qULmsGYq8)  
 *^^ I think Google Maps removed that streetview image but this is the neighboring image, taken on the same date*
