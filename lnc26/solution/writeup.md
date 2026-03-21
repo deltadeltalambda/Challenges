@@ -2,7 +2,7 @@
 
 *Have you touched grass yet?*
 
-Most geo-OSINTs I see in CTFs either feel random or of poor quality. The goal with my challenge is a more focused approach, honing in on **5 different ways** vegetation can be useful for OSINT and also to expose players to the wide range of open source tools/knowledge that exist to aid us in doing so. 
+The goal with my challenge is to hone in on **5 different ways** vegetation can be useful for geo-OSINT and also to expose players to some of open source tools/knowledge that exist to aid us in doing so. 
 I generally try to stray away from anything that requires too much Geoguessr-specific knowledge, though given the nature of these challenges they will often be somewhat helpful.
 
 >*It's all in the trees, you see. ~ Sam, Jet Lag season 9 episode 3*
@@ -57,7 +57,7 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 1. The most interesting thing in the scene is the row of shrubs with white powder underneath
 2. Reverse image search the plants - they are **Mastic trees**. Though mastic shrubs are found all throughout the Mediterranean, they are only cultivated into trees (using a special technique that involves scattering white calcium carbonate at the base) in **South Chios, Greece**. This specific variety produces mastic resin aka tears of Chios. 
 3. Specific microclimatic conditions mean the mastic trees are only grown in **24 mastic villages** aka **[Mastichochoria](https://www.gummastic.gr/en/mastihavillages/villages)**
-4. Search roads in and around each village. Mastic tree groves are often located along the highways connecting neighboring mastic villages. To narrow things down, you can eliminate any village near or with a view of the sea (E.g. Kataraktis). Next, notice our road is in a high plateau - there aren't visible mountains that are much higher than us - so we can use Google Maps Terrain view to eliminate any locations in valleys (where you would see visible mountains), which is most of them (e.g. Vessa-Armolia road, Mesta, Pyrgi-Elata road, Olympi-Pyrgi road...).
+4. Search roads in and around each village. Mastic tree groves are often located along the highways connecting neighboring mastic villages. To narrow things down, you can eliminate any village near or with a view of the sea (E.g. Kataraktis). Next, notice our road is very high up - there aren't visible mountains that are much higher than us - so we can use Google Maps' Terrain view to eliminate any locations in valleys (where you would see visible mountains), which is most of them (e.g. Vessa-Armolia road, Mesta, Pyrgi-Elata road, Olympi-Pyrgi road...).
 5. One of your options left should be Ag. Georgios Sikousis.
 
 **Answer: Επαρ.Οδ. Χίου-Ελάτας, Chios, Greece** [38.308,26.036](https://maps.app.goo.gl/MbLWvyf2jCJkEL6s6)  
