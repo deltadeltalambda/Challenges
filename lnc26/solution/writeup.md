@@ -44,7 +44,7 @@ I generally try to stray away from anything that requires too much Geoguessr-spe
 | Brooklyn, Waterkloof | - |
 6. Investigate every intersection in Brooklyn and Waterkloof
 
-**Answer: Rose Avenue, Pretoria, South Africa** [-0.963,-91.006](https://maps.app.goo.gl/boNgpPHu7TNDtguX6)
+**Answer: Rose Avenue, Pretoria, South Africa** [-25.780,28.240](https://maps.app.goo.gl/boNgpPHu7TNDtguX6)
 
 
 ### 3. tears
